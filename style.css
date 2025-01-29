@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+/* -=-=-=-=-=-=- Header -=-=-=-=-=-=- */
+
+
+header {
+    background-color:#A8E6CF;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.search {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.search-bar {
+    height: 30px;
+    flex-basis: 75%;
+
+    padding: 5px 15px;
+
+    border-radius: 8px;
+
+    border: none;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search > button {
+    flex-basis: 25%;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    border: none;
+
+    background-color: rgb(0, 218, 0);
+
+    color: white;
+}
+
+.header-options {
+    display: flex;
+
+    margin-right: 20px;
+
+    gap: 10px;
+}
+
+.header-options img {
+    width: 40px;
+    height: 40px;
+}
+
+/* -=-=-=-=-=-=- Main -=-=-=-=-=-=- */
+
+main {
+    display: flex;
+
+    background-color: rgb(240, 240, 240);
+
+    padding: 20px;
+}
+
+.category-container {
+    flex-basis: 20%;
+
+    min-width: 150px;
+}
+
+.product-container {
+    flex-basis: 80%;
+}
+
+.product {
+    width: 300px;
+
+    display: inline-block;
+
+    background-color: white;
+
+    margin: 10px;
+
+    border-radius: 15px;
+
+    /* box-shadow: 6px 10px 30px 5px rgba(0,0,0,0.75); */
+}
+
+.product > img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: contain;
+
+    border-radius: 15px;
+}
+
+.product h3 {
+    margin-left: 20px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+
+    color: red;
+}
+
+/* -=-=-=-=-=-=- Footer -=-=-=-=-=-=- */
+
+
+footer {
+    display: grid;
+
+    grid-template-columns: 2fr repeat(4, 1fr);
+
+    column-gap: 40px;
+
+    padding: 50px;
+    padding-left: 8%;
+    background-color: rgb(106, 182, 47);
+}
+
+.footer-container {
+    color: white;
+}
+
+.footer-container > p {
+    color: rgb(213, 213, 213);
+}
+
+.footer-info {
+    height: 100px;
+    background-color: green;
+
+    grid-column: 1/6;   
+}
