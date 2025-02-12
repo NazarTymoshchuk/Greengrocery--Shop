@@ -1,0 +1,65 @@
+/* -=-=-=-=-=-=- Main -=-=-=-=-=-=- */
+
+main {
+    display: flex;
+
+    background-color: rgb(240, 240, 240);
+
+    padding: 20px;
+}
+
+.category-container {
+    flex-basis: 20%;
+
+    min-width: 150px;
+}
+
+.product-container {
+    flex-basis: 80%;
+}
+
+.product {
+    width: 300px;
+
+    display: inline-block;
+
+    background-color: white;
+
+    margin: 10px;
+
+    border-radius: 15px;
+
+    /* box-shadow: 6px 10px 30px 5px rgba(0,0,0,0.75); */
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: contain;
+
+    border-radius: 15px;
+}
+
+.product h3 {
+    margin-left: 20px;
+
+    color: black;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+
+    color: red;
+}
