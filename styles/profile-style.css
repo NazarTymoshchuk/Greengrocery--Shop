@@ -4,6 +4,8 @@ main {
     background-color: rgb(232, 232, 232);
 
     padding: 15px;
+
+    padding-top: 140px;
 }
 
 .container-info {

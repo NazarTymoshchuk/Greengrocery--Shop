@@ -55,3 +55,8 @@ body {
     border: none;
     border-bottom: 2px solid grey;
 }
+
+button a {
+    text-decoration: none;
+    color: white
+}

@@ -13,6 +13,10 @@ header {
     justify-content: space-between;
 
     align-items: center;
+
+    position: fixed;
+
+    width: 100%;
 }
 
 .logo {
@@ -60,9 +64,11 @@ header {
     gap: 10px;
 }
 
-.header-options img {
+.header-options svg {
     width: 40px;
     height: 40px;
+
+    color: black;
 }
 
 
